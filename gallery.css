@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#image {
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid gray;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+figure {
+    border: 2px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+img:hover, img:focus {
+    border: 3px solid blue;
+}
+
+#image {
+    text-shadow: -3px -3px 2px white,  
+                 3px -3px 2px white,  
+                 -3px 3px 2px white,  
+                 3px 3px 2px white;
+                 font-weight: bold;
+                 font-size: 20px;
+                 text-align: center;
+}
